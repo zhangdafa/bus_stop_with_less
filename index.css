@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #B2B3B5;
+  position: relative;
+}
+#container header {
+  background-color: #739256;
+}
+#container header h3 {
+  font-size: 5rem;
+  color: #A04858;
+  letter-spacing: 25px;
+}
+#container article ul {
+  display: flex;
+}
+#container article ul li {
+  display: inline-block;
+  width: 50px;
+  height: auto;
+  flex: 1;
+  font-size: 3rem;
+  line-height: 40px;
+}
+#container article .price h4 {
+  font-size: 3rem;
+  color: #A04858;
+}
+#container .divide {
+  position: relative;
+  bottom: 73px;
+  font-size: 0;
+}
+#container .divide span {
+  display: inline-block;
+}
+#container .divide span.line {
+  width: 700px;
+  border-top: 0.8rem solid #739256;
+}
+#container .divide span.arrow {
+  position: relative;
+  right: 4rem;
+  top: 4rem;
+  width: 0;
+  height: 0;
+  border: 4rem solid #739256;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(-45deg) skew(31deg, 31deg);
+}
+#container footer {
+  text-align: left;
+  position: relative;
+  bottom: 52px;
+  box-sizing: border-box;
+  padding: 0 100px;
+}
+#container footer h4 {
+  font-size: 2.5rem;
+}
+#container footer ul li {
+  display: inline-block;
+  width: 125px;
+  height: auto;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-right: 3px;
+}
